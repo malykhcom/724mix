@@ -4,6 +4,8 @@
 
 **Warning**: some source files are missing. It is impossible to build the application.
 
+![screenshot](724mix.jpg)
+
 Anton Malykh
 
 See also:
