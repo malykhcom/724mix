@@ -1,0 +1,3 @@
+#include <os2.h>
+
+POINTER 1 "..\\add\\724mix.ico"

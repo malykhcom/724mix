@@ -1,0 +1,18 @@
+option description '724mix v0.2 (c) Anton Malykh, 2000-2001.' 
+option stack=64k 
+name 724mix.exe 
+option eliminate 
+system os2v2 
+file 724mix.obj 
+file pci.obj 
+file ymf724.obj 
+file memio.obj 
+file ac97.obj 
+file video.obj 
+file refresh.obj 
+file control.obj 
+file pmvio.obj 
+file ini.obj 
+file 1config.obj 
+file 1memory.obj 
+file 1string.obj 

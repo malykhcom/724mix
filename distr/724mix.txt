@@ -1,0 +1,43 @@
+                724mix v0.2 - YMF724 Mixer for OS/2 VIO
+                      (c) Anton Malykh, 2000-2001.
+
+1. Installation
+
+a) Unzip the package into any directory.
+b) If the USLGENIO.SYS driver [USL Generic I/O Driver (c) Vadim Rumyantsev] is
+   not installed then install it by adding somewhere in CONFIG.SYS a line like
+         DEVICE=PATH\USLGENIO.SYS
+   (where PATH is the path to the directory containing the unpacked package) 
+   and reboot OS/2.
+c) Run 724inst.cmd to create a WPS folder and a program object.
+
+2. Overview
+
+   724mix is a simple mixer with  a textmode interface for  YMF724-based sound
+cards.  It  also supports  YMF724-compatible chips  such as YMF740, YMF744 and
+YMF754. This mixer works in the aggressive mode only -  settings are resent to
+the hardware audio CODEC of the sound  card periodically. You  can  choose the
+delay between  sendings by changing the 'Resend  delay ' parameter.  A  bigger 
+delay  provide  a  lower  cpu  usage,  but may way to longer periods of  wrong
+sound level. The default delay is 100 msecs.
+   724mix  can  switch some AC'97 compatible features such as 'Mono to Stereo'
+(Simulated Stereo), 'Bass Boost' (Loudness), '3D Mode' (3D Stereo Enhancement)
+in  case  if  the audio  CODEC  of the  sound  card  supports  this  features. 
+Otherwise message  'Not supported by the CODEC' or  'No 3D Stereo Enhancement' 
+will be written.
+
+3. Licensing
+
+   724mix  is  a  freeware  product.  It  is  provided  as is and come with no 
+warranty of any kind, either expressed or implied. In no event will the author
+be liable for any damages resulting from the use of this software.
+   724mix uses USL Generic I/O Driver. Copyright (c) 1999 Vadim Rumyantsev.
+
+4. Support
+
+   If  you  have  bug  reports, support questions or comments upon 724mix, 
+please send me a message containing as much info as possible via
+
+e-mail:   "Anton Malykh" <malykh@defgroup.com>
+
+homepage: http://malykh.com/os2/724mix/

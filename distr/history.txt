@@ -1,0 +1,13 @@
+                724mix v0.2 - YMF724 Mixer for OS/2 VIO
+                      (c) Anton Malykh, 2000-2001.
+
+v0.1 
+====
+INF: First release
+
+v0.2
+====
+FIX: More correct detection of PMSHELL presence
+CHG: Text config
+NEW: Settings are saved when system kills 724mix
+FIX: Minor changes of CODEC writing and reading methods
